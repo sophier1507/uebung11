@@ -3,7 +3,7 @@ package p1;
 public class P1_main {
 
 	public static void main(String[] args) {
-		double a = 1.5; //net float!!!
+		double a = 1.5; //net float!!! oder dach? 
 		int b = 3;
 		System.out.println(rpotenz(a, b));
 		System.out.println(ipotenz(a, b));
