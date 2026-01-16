@@ -8,15 +8,14 @@ public class H2_main {
 	public static void main(String[] args) {
 
 		benchmark(8);
-
+		
 	}
 	
-	public static int fibonacci(int n) { //static oder nt?
+	public static int fibonacci(int n) { 
 		if ((n == 1) || (n == 2)) {
 			return 1;
 		}
 		return (fibonacci(n - 1) + fibonacci(n - 2));	} //net ferdeg!!!
-
 	public static int fibonacciCached(int n) {
 		if (numbers[n - 1] != 0) {
 			return numbers[n - 1];
@@ -45,7 +44,7 @@ public class H2_main {
 		return n2;
 	}
 	
-	public static int benchmark(int n) {
+	public static void benchmark(int n) {
 		long start = System.nanoTime();
 		System.out.println(fibonacci(n));
 		long end = System.nanoTime();
@@ -60,9 +59,7 @@ public class H2_main {
 		System.out.println(it_fibonacci(n));
 		end = System.nanoTime();
 		System.out.println("Elapsed nanoseconds (it_fibonacci): " + (end - start));
-		
-		return 0;
-	}
+		}
 	
 	
 }
