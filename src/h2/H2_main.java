@@ -7,7 +7,7 @@ public class H2_main {
 	
 	public static void main(String[] args) {
 
-		benchmark(8);
+		//benchmark(8);
 		
 	}
 	
@@ -15,7 +15,8 @@ public class H2_main {
 		if ((n == 1) || (n == 2)) {
 			return 1;
 		}
-		return (fibonacci(n - 1) + fibonacci(n - 2));	} //net ferdeg!!!
+		return (fibonacci(n - 1) + fibonacci(n - 2));	} 
+	
 	public static int fibonacciCached(int n) {
 		if (numbers[n - 1] != 0) {
 			return numbers[n - 1];
