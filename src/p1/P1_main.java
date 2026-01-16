@@ -13,11 +13,11 @@ public class P1_main {
 		if (b == 0) {
 			return 1;
 		}
-		return a * rpotenz(a, b - 1);
+		return a * rpotenz(a, b - 1);  //selwecht
 	}
 	public static double ipotenz(double a, int b) {
 		double result = 1;
-		for (int i = 0; i < b; i++) {
+		for (int i = 0; i < b; i++) { //prinzip selwecht mengen ech, sie huet ++i
 			result *= a;
 		}
 		return result;

@@ -11,6 +11,6 @@ public class P3_main {
 		if (n == 0) {
 			return k;
 		}
-		return kapital(k * (105) / 100, n - 1);
+		return kapital(k * (105) / 100, n - 1); //sie huet nach int firdru geschriwwen also expl typecasting
 	}
 }

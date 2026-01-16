@@ -8,7 +8,7 @@ public class P2_main {
 		System.out.println(it_ld(a));
 
 	}
-	public static int rek_ld(int a) {
+	public static int rek_ld(int a) { //selwecht
 		if (a == 1) {
 			return 0;
 		}
